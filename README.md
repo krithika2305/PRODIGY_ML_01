@@ -8,6 +8,13 @@ Here I have completed Task 1 - Machine Learning Internship to Predict the House 
 -- Flask/HTML (Web interface - optional)  
 -- Jupyter Notebook (Exploratory analysis)
 
+## Goal
+Predicting house price based on:
+
+- Square Feet (GrLivArea)
+- Number of bedrooms (BedroomAbvGr)
+- Number of bathrooms (FullBath)
+
 ## 📊 Dataset Information
 -- train.csv → Contains training data with features and target prices.  
 -- test.csv → Contains test data for predictions.  
@@ -20,5 +27,10 @@ Here I have completed Task 1 - Machine Learning Internship to Predict the House 
 | Mean Squared Error (MSE):       | 2806426667.25 |  
 | Root Mean Squared Error (RMSE): | 52975.72      |  
 | R² Score:                       | 0.6341        |  
+
+## 📝 Notes
+Dataset source: Kaggle House Prices Dataset
+
+Special thanks to Prodigy Info Tech for the internship opportunity
 
 
