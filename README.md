@@ -14,8 +14,8 @@ Here I have completed Task 1 - Machine Learning Internship to Predict the House 
 -- data_description.txt → Explains each column in the dataset.  
 
 ## Model Evaluation Metrics
-| Mean Absolute Error (MAE): | 35788.06  
-| Mean Squared Error (MSE): | 2806426667.25  
+| Mean Absolute Error (MAE):      | 35788.06  
+| Mean Squared Error (MSE):       | 2806426667.25  
 | Root Mean Squared Error (RMSE): | 52975.72  
-| R² Score: | 0.6341  
+| R² Score:                       | 0.6341  
 
