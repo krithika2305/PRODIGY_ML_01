@@ -1,1 +1,1 @@
-# PRODIGY_ML_01
+Prodigy Info Tech - House Price Prediction Using Linear Regression
