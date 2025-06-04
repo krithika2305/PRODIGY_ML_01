@@ -1,0 +1,58 @@
+<!DOCTYPE html>
+<html>
+<head>
+    <title>House Price Prediction</title>
+    <style>
+        body {
+            background-image: url("/static/house1.jpg");
+            background-size: cover;
+            background-repeat: no-repeat;
+            background-position: center;
+            font-family: Arial, sans-serif;
+            color: white;
+        }
+        .container {
+            background-color: rgba(0, 0, 0, 0.6);
+            width: 400px;
+            margin: 100px auto;
+            padding: 30px;
+            border-radius: 15px;
+        }
+        h2 {
+            text-align: center;
+        }
+        input[type=number], input[type=submit] {
+            width: 100%;
+            padding: 10px;
+            margin-top: 10px;
+            border-radius: 8px;
+            border: none;
+        }
+        input[type=submit] {
+            background-color: #4CAF50;
+            color: white;
+            cursor: pointer;
+        }
+        input[type=submit]:hover {
+            background-color: #45a049;
+        }
+    </style>
+</head>
+<body>
+    <div class="container">
+        <h2>House Price Prediction</h2>
+        <form action="/predict" method="post">
+            <label for="GrLivArea">Ground Living Area:</label>
+            <input type="number" name="GrLivArea" required>
+
+            <label for="BedroomAbvGr">Bedrooms Above Ground:</label>
+            <input type="number" name="BedroomAbvGr" required>
+
+            <label for="FullBath">Full Bathrooms:</label>
+            <input type="number" name="FullBath" required>
+
+            <input type="submit" value="Predict">
+        </form>
+    </div>
+</body>
+</html>

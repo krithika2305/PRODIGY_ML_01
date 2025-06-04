@@ -1,0 +1,31 @@
+<!DOCTYPE html>
+<html>
+<head>
+    <title>Prediction Result</title>
+    <style>
+        body {
+            background-image: url("/static/house1.jpg");
+            background-size: cover;
+            background-position: center;
+            color: white;
+            font-family: Arial, sans-serif;
+            text-shadow: 1px 1px 3px black;
+            padding: 20px;
+        }
+        h2, h3 {
+            margin-top: 20px;
+        }
+    </style>
+</head>
+<body>
+    <h2>Predicted House Price: ${{ prediction }}</h2>
+    <h3>Model Evaluation Metrics</h3>
+    <ul>
+        <li>Mean Absolute Error (MAE): {{ mae }}</li>
+        <li>Mean Squared Error (MSE): {{ mse }}</li>
+        <li>Root Mean Squared Error (RMSE): {{ rmse }}</li>
+        <li>R² Score: {{ r2 }}</li>
+    </ul>
+    <a href="/">Back to Home</a>
+</body>
+</html>
