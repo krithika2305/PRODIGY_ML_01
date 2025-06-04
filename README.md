@@ -31,6 +31,6 @@ Predicting house price based on:
 ## 📝 Notes
 Dataset source: Kaggle House Prices Dataset
 
-** Special thanks to Prodigy Info Tech for the internship opportunity
-
+   ->Special thanks to Prodigy Info Tech for the internship opportunity  
+   #ProdigyInfoTech
 
