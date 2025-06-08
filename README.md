@@ -29,7 +29,11 @@ Predicting house price based on:
 | R² Score:                       | 0.6341        |  
 
 ## 📝 Notes
-Dataset source: Kaggle House Prices Dataset
+Dataset source: [Kaggle House Prices Dataset](https://www.kaggle.com/competitions/house-prices-advanced-regression-techniques)
+
+-> Special thanks to Prodigy Info Tech for the internship opportunity  
+#ProdigyInfoTech
+
 
    ->Special thanks to Prodigy Info Tech for the internship opportunity  
    #ProdigyInfoTech
